@@ -1,0 +1,266 @@
+/**** Navbar *****/
+.topnav {
+  display: block;
+  position: absolute;
+  width: 100%;
+  padding-top: 1vh;
+  padding-left: 15vw;
+  background-color: transparent;
+}
+
+.topnav img {
+  border-radius: 50%;
+  border: 1px solid rgba(154, 152, 150, 0.592);
+  width: 50px;
+  height: 50px;
+}
+
+.logo-text {
+  width: 10vw;
+  float: left;
+  align-items: center;
+}
+
+.home {
+  cursor: pointer;
+}
+
+.home-name {
+  margin-top: 1vh;
+  margin-left: 5px;
+  font-size: large;
+  line-height: 1em;
+}
+
+.home-name .line1 {
+  color:rgba(47, 46, 39, 0.893);
+}
+
+.home-name .line2 {
+  color: rgb(13, 13, 86);
+}
+
+.top-left p {
+  display: none;
+}
+
+.top-right{
+  margin-right: 14vw;
+}
+
+.top-right p {
+  display: block;
+  cursor: pointer;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: larger;
+  color: white;
+  float: right;
+  margin-top: 1vh;
+  padding-right: 1vw;
+}
+
+.top-right .copy-right {
+  display: none;
+  font-size: small;
+  color:rgba(47, 46, 39, 0.893);
+}
+
+/****** Body *****/
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+/**** First page ***/
+.c1 {
+  display: block;
+  background-image: url("pictures/mountain2.jpeg");
+  height: 100%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.c1 p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-size: 7rem;
+  opacity: 0.5;
+  line-height: .9em;
+}
+
+.top-text {
+  color:rgba(47, 46, 39, 0.893);
+}
+
+.bottom-text {
+  color: rgb(13, 13, 86);
+}
+
+/*** Second page: link1 ***/
+.c2 {
+  display: none;
+  background-image: url("pictures/mountain4.jpeg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.page-title {
+  position: absolute;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 15vh;
+  text-align: left;
+}
+
+.big-text {
+  font-size: 15rem;
+  opacity: 0.5;
+}
+
+.medium-text {
+  position:fixed;
+  font-size: 5rem;
+  margin-left: -.7em;
+  margin-top: 1.5em;
+  opacity: 0.8;
+} 
+
+.general-text {
+  position: fixed;
+  margin-top: -2em;
+  margin-right: 15vw;
+  font-size: large;
+  opacity: 0.5;
+}
+
+/*** Carousel ****/
+.container {
+  position: fixed;
+  padding: 2vh 15vw 2vh 15vw;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color:rgba(128, 128, 128, 0.50);
+}
+
+.carousel-indicators {
+  bottom: -4rem;
+}
+
+.carousel-inner {
+  margin-bottom: 2rem;
+}
+
+.col-xs-4 img{
+  width: 100%;
+  max-height: 25vh;
+  height: auto;
+  object-fit: cover;
+}
+
+/*** Third page ***/
+.c3 {
+  display: none;
+}
+
+.page2 {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  padding-top: 0vh;
+}
+
+.page2 .text1 {
+  font-size: 15rem;
+  opacity: 0.5;
+}
+.page2 .text2 {
+  position:fixed;
+  font-size: 5rem;
+  margin-left: -.7em;
+  margin-top: 1.5em;
+  opacity: 0.8;
+}
+.page2 .text3 {
+  position: fixed;
+  font-size: large;
+  margin-left: 14rem;
+  margin-top: 3em;
+  margin-right: 15vw;
+  opacity: 0.8;
+}
+
+/*** Third page: link2 ***/
+.navbar2 {
+  margin-top: -2vh;
+  font-size: large;
+  background-color: rgb(190, 193, 198);
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  cursor: pointer;
+
+}
+
+.m1 {
+  margin-left: 15vw;
+  padding: 2vh;
+  background-color: grey;
+  color: white;
+  text-decoration: underline;
+}
+
+.m2 {
+  padding: 2vh;
+}
+
+.m1-content {
+  display: block;
+  background-image: url("pictures/mountain7.jpeg");
+  height: 70vh; 
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.m2-content {
+  display: none;
+  background-image: url("pictures/mountain6.jpeg");
+  height: 70vh;
+  width: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.schedules {
+  position: absolute;
+  margin-left: 15vw;
+  margin-top: 5vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.55);
+  padding: 2rem 5rem 2rem 5rem;
+}
+
+.schedules p {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.col1 {
+  float: left;
+  font-size: medium;
+}
+
+.col2 {
+  float: left;
+  font-size: medium;
+  padding-left: 2vw;
+}

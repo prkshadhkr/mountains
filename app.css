@@ -3,8 +3,9 @@
   display: block;
   position: absolute;
   width: 100%;
-  padding-top: 1vh;
+  padding-top: .5rem;
   padding-left: 15vw;
+  padding-bottom: .5rem;
   background-color: transparent;
 }
 
@@ -26,9 +27,9 @@
 }
 
 .home-name {
-  margin-top: 1vh;
+  margin-top: 1rem;
   margin-left: 5px;
-  font-size: 1.35rem;
+  font-size: 1.5rem;
   line-height: 1em;
 }
 
@@ -45,6 +46,7 @@
 }
 
 .top-right{
+  margin-top: 1rem;
   margin-right: 14vw;
 }
 
@@ -53,7 +55,7 @@
   cursor: pointer;
   text-decoration: underline;
   font-style: italic;
-  font-size: 1.25rem;
+  font-size: 1.45rem;
   color: white;
   float: right;
   margin-top: 1vh;
@@ -62,7 +64,7 @@
 
 .top-right .copy-right {
   display: none;
-  font-size: 1rem;
+  font-size: 1.25rem;
   color:rgba(47, 46, 39, 0.893);
 }
 
@@ -89,7 +91,7 @@ body, html {
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
-  font-size: 7rem;
+  font-size: 9rem;
   opacity: 0.5;
   line-height: .9em;
 }
@@ -112,31 +114,29 @@ body, html {
   background-size: cover;
 }
 
-*/
-.page-title {
+.page1 {
   margin-left: 15vw;
   margin-right: 15vw;
-  padding-top: 3em;
+  padding-top: 3rem;
 }
 
-.page-title .big-text {
+.page1 .text1 {
   font-size: 15rem;
   opacity: 0.5;
 }
-.page-title .medium-text {
+.page1 .text2 {
   position:fixed;
   font-size: 5rem;
   margin-left: -.7em;
   margin-top: 1.5em;
   opacity: 0.8;
 }
-
-.general-text {
+.page1 .text3 {
   position: fixed;
-  margin-top: -2em;
-  margin-right: 15vw;
   font-size: large;
-  opacity: 0.5;
+  margin-top: -3rem;
+  margin-right: 15vw;
+  opacity: 0.8;
 }
 
 /*** Carousel ****/
